@@ -1,0 +1,72 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Warcraft 5e",
+				"abbreviation": "WC5e",
+				"full": "Warcraft 5e Conversion",
+				"authors": [
+					"JestePalom"
+				],
+				"version": "3.2",
+				"url": "https://github.com/JestePalom/Warcraft-5e/new/master",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"spell": [
+		{
+			"name": "Abandoment Aura",
+			"source": "Warcraft 5e",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "Self",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false,
+				"m":,
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Death Knight",
+						"source": "WC5e"
+					}
+				]
+			},
+			"entries": [
+				"Destructive energy radiates from you in an aura with a 15foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura’s area. ",
+				"This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus. ",
+				"Note. This spell suppresses and is suppressed by the devotion aura spell."
+			]
+"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Heightened",
+					"entries": [
+						" For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5). "
+					]
+		},
